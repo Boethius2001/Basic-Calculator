@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(71, 71, 71);
+}
+
+#Calculator-Container{
+    background-color: black;
+    padding: 20px;
+    max-width: 460px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: auto;
+}
+
+#Display{
+    height: 100px;
+    width: 400px;
+    margin: 10px;
+    border: none;
+    color: white;
+    background-color: black;
+
+    font-size: 3em;
+    font-weight: bold;
+    text-align: right;
+}
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+    border: none;
+
+    font-size: 3em;
+    background-color: rgb(77, 77, 77);
+    color: white;
+    font-weight: bold;
+
+    margin: 5px;
+}
+button:hover{
+    background-color: rgb(107, 107, 107);
+    cursor: pointer;
+}
+button:active{
+    background-color:  rgb(150, 150, 150);;
+}
+.Operator-Btn{
+    background-color: orangered;
+}
+.Operator-Btn:hover{
+    background-color: rgb(255, 123, 75);
+}
+.Operator-Btn:active{
+    background-color: rgb(255, 142, 100);
+}
+.Clear-Btn{
+    background-color: rgb(224, 18, 18);
+}
+.Clear-Btn:hover{
+    background-color: rgb(219, 60, 60);
+}
+.Clear-Btn:active{
+    background-color: rgb(219, 93, 93);
+}
+.Result-Btn{
+    background-color: rgb(148, 90, 51);
+}
+.Result-Btn:hover{
+    background-color: rgb(158, 110, 78);
+}
+.Result-Btn:active{
+    background-color: rgb(165, 124, 96);
+}
